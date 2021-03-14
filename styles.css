@@ -1,0 +1,17 @@
+html,body{
+    height: 100%;
+    background: rgb(70,70,217);
+    background: linear-gradient(0deg, rgba(0,91,234,1) 0%, rgba(101,183,255,1) 100%); 
+    overflow-x: hidden  ;
+}
+
+#intro-slide{
+    height: 100%;
+    width: 100%;
+    background-image: url("https://i.kym-cdn.com/photos/images/original/000/923/851/4e7.jpg");
+    background-repeat:round;
+}
+
+.form-stretch{
+    max-width: 25em;
+}
