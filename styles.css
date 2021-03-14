@@ -8,7 +8,7 @@ html,body{
 #intro-slide{
     height: 100%;
     width: 100%;
-    background-image: url("https://i.kym-cdn.com/photos/images/original/000/923/851/4e7.jpg");
+    background-image: url(assets/login_pic.jpg);
     background-repeat:round;
 }
 
