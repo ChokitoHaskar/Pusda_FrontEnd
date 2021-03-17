@@ -1,15 +1,79 @@
-html,body{
-    height: 100%;
-    background: rgb(70,70,217);
-    background: linear-gradient(0deg, rgba(0,91,234,1) 0%, rgba(101,183,255,1) 100%); 
-    overflow-x: hidden  ;
+/* Fonts */
+
+@font-face {
+    font-family: poppin;
+    src: url(assets/fonts/Poppins-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
 }
 
+@font-face {
+    font-family: poppin;
+    src: url(assets/fonts/Poppins-Bold.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: poppin;
+    src: url(assets/fonts/Poppins-Light.ttf);
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: poppin;
+    src: url(assets/fonts/Poppins-Italic.ttf);
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* ---- */
+
+html,body{
+    font-family: poppin;
+    height: 100%;
+    background: rgb(70,70,217);
+    background: linear-gradient(0deg, rgba(0, 91, 234,1) 0%, rgba(101, 183, 255,1) 100%); 
+    overflow-x: hidden;
+}
+
+.shadow-text{
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
 #intro-slide{
     height: 100%;
-    width: 100%;
-    background-image: url(assets/login_pic.jpg);
+    background-image: url("assets/images/Bg.jpg");
     background-repeat:round;
+}
+
+#lgn-btn{
+    font-weight: bold;
+    background: rgb(255,153,2);
+    background: linear-gradient(0deg, rgba(255,153,2,1) 0%, rgba(255,186,12,1) 100%);
+}
+
+#li-active{
+    background: white;
+    border-radius: 100px;
+    color: transparent;
+}
+
+.no-outline{
+    outline: none;
+}
+
+.lh-half{
+    line-height: 0.5 !important;
+}
+
+.lh-1{
+    line-height: 1 !important;
+}
+
+.w-65{
+    width: 65% !important;
 }
 
 .form-stretch{
